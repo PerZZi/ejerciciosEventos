@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-neutral-950">
+    <header class="flex justify-center text-4xl text-black">
+        <h1>Ejercicios Eventos</h1>
+    </header>
+
+    <main class="flex flex-wrap items-stra">
+        <div class="bg-blue-700 w-[300px] h-[300px] mt-4">
+        </div>
+        <button class="bg-amber-400 w-40 mt-4 p-2">Cambiar</button>
+
+        <div class="conte2 w-[300px] h-[300px] bg-neutral-600 mt-20 mb-4 text-white text-center">
+        </div>
+        <input class="p-2 mb-4" type="text" name="texto" id="texto">
+        <button id="botonTexto" class="bg-yellow-400 w-40 p-2 mb-4">Reset</button>
+
+        <div class="Datos bg-blue-800 w-[300px] h-[300px] flex flex-col items-center">
+            <label>
+                <h2 class="text-gray-50">Estatura</h2>
+                <input class="mb-4 p-1" type="text" id="altura">
+            </label>
+            <label>
+                <h2 class="text-gray-50">Peso</h2>
+                <input class="mb-4 p-1" type="text" id="peso">
+            </label>
+            <button id="botonCalcu" class="bg-yellow-400 w-40 p-2 mb-4">Calcular</button>
+        </div>
+
+        <div class="Resultado w-[300px] h-[100px] bg-blue-700 mt-4 mb-4 flex flex-col items-center">
+            <input class="mb-4 p-1" type="text" name="" id="resu">
+        </div>
+    </main>
+
+    <footer class=""></footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
